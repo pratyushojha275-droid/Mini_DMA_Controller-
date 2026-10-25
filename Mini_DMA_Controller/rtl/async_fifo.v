@@ -58,4 +58,3 @@ module async_fifo #(
         else           {rq2_wptr, rq1_wptr} <= {rq1_wptr, wptr};
     end
 endmodule
-
